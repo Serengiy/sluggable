@@ -1,0 +1,28 @@
+{
+    "name": "serengiy/sluggable",
+    "description": "Пакет для формирования slug'ов в Eloquent моделях для Laravel",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "serengiy",
+            "email": "serengiy@gmail.com",
+            "homepage": "https://github.com/Serengiy"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Serengiy\\Sluggable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Serengiy\\Sluggable\\Providers\\UseSlugServiceProvider"
+            ]
+        }
+    }
+}
